@@ -4,7 +4,7 @@
 	'use strict';
 
 	var express = require('express'),
-		app = express.createServer();
+		app = express();
 
 	app.get('/', function(req, res) {
 		res.send('Welcome to Node Twitter');
